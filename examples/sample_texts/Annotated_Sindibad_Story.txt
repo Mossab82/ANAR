@@ -1,1 +1,179 @@
-
+{
+    "text_id": "sindbad_voyage1",
+    "frame_stories": [
+        {
+            "level": 1,
+            "narrator": "شهرزاد",
+            "marker": "قالت شهرزاد: وحدثني أيها الملك السعيد",
+            "audience": "الملك",
+            "span": [0, 89]
+        },
+        {
+            "level": 2,
+            "narrator": "السندباد",
+            "marker": "قال السندباد: يا إخواني، اسمعوا حكاية عجيبة",
+            "audience": "أصحابه وجيرانه",
+            "span": [90, 456]
+        }
+    ],
+    "characters": [
+        {
+            "name": "شهرزاد",
+            "role": "frame_narrator",
+            "mentions": [15],
+            "attributes": ["storyteller", "primary_narrator"]
+        },
+        {
+            "name": "السندباد البحري",
+            "role": "protagonist",
+            "mentions": [45, 156, 234],
+            "attributes": ["merchant", "traveler", "wealthy"]
+        },
+        {
+            "name": "الملك",
+            "role": "frame_listener",
+            "mentions": [25],
+            "attributes": ["royalty", "audience"]
+        },
+        {
+            "name": "سائس الملك",
+            "role": "secondary_character",
+            "mentions": [678],
+            "attributes": ["royal_servant"]
+        }
+    ],
+    "cultural_patterns": [
+        {
+            "text": "ضرب في الأرض",
+            "type": "idiomatic_expression",
+            "meaning": "to travel extensively",
+            "context": "travel_narrative",
+            "position": 234
+        },
+        {
+            "text": "أكرمني غاية الإكرام",
+            "type": "social_custom",
+            "meaning": "showed utmost hospitality",
+            "context": "royal_court",
+            "position": 789
+        },
+        {
+            "text": "وأدرك شهرزاد الصباح فسكتت عن الكلام المباح",
+            "type": "frame_formula",
+            "meaning": "story interruption marker",
+            "context": "narrative_structure",
+            "position": 1245
+        }
+    ],
+    "locations": [
+        {
+            "name": "بغداد",
+            "type": "city",
+            "mentions": [67, 890],
+            "context": "historical_setting"
+        },
+        {
+            "name": "البصرة",
+            "type": "city",
+            "mentions": [245, 856],
+            "context": "port_city"
+        },
+        {
+            "name": "الجزيرة",
+            "type": "island",
+            "mentions": [345, 456, 567],
+            "context": "mysterious_location"
+        }
+    ],
+    "events": [
+        {
+            "text": "جمع أصحابه وجيرانه على طعام",
+            "type": "social_gathering",
+            "position": 123,
+            "participants": ["السندباد", "أصحابه", "جيرانه"]
+        },
+        {
+            "text": "نزلت فيها وسافرنا في البحر",
+            "type": "journey_start",
+            "position": 345,
+            "participants": ["السندباد", "التجار"]
+        },
+        {
+            "text": "غاص في البحر",
+            "type": "supernatural_event",
+            "position": 567,
+            "participants": ["الحوت"]
+        }
+    ],
+    "temporal_markers": [
+        {
+            "text": "في يوم من الأيام",
+            "type": "time_indicator",
+            "position": 89
+        },
+        {
+            "text": "مدة عشرين يوماً",
+            "type": "duration",
+            "position": 345
+        },
+        {
+            "text": "مدة يومين",
+            "type": "duration",
+            "position": 678
+        }
+    ],
+    "narrative_themes": [
+        {
+            "theme": "journey_and_return",
+            "elements": ["departure", "adventure", "transformation", "return"]
+        },
+        {
+            "theme": "wealth_and_fortune",
+            "elements": ["initial_wealth", "loss", "recovery", "greater_wealth"]
+        },
+        {
+            "theme": "supernatural_encounters",
+            "elements": ["whale_island", "magical_transformation"]
+        }
+    ],
+    "linguistic_features": {
+        "classical_markers": [
+            {
+                "text": "فلما",
+                "type": "classical_conjunction",
+                "positions": [145, 567, 890]
+            },
+            {
+                "text": "إذ",
+                "type": "classical_particle",
+                "positions": [456, 789]
+            }
+        ],
+        "formulaic_phrases": [
+            {
+                "text": "وحدثني أيها الملك السعيد",
+                "type": "narrative_opening",
+                "position": 23
+            },
+            {
+                "text": "في أطيب عيش",
+                "type": "state_description",
+                "position": 789
+            }
+        ]
+    },
+    "structural_elements": {
+        "opening": {
+            "span": [0, 89],
+            "type": "frame_introduction"
+        },
+        "main_narrative": {
+            "span": [90, 1200],
+            "type": "voyage_account"
+        },
+        "closing": {
+            "span": [1201, 1245],
+            "type": "frame_closure"
+        }
+    }
+}
